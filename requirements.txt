@@ -1,0 +1,15 @@
+# 基础 UI 与 核心
+PyQt5
+Pillow
+requests
+pyyaml
+
+# 视觉与截图
+pywin32
+pyTelegramBotAPI
+
+# 语音
+pygame
+edge-tts
+
+# 数据库 (SQLite3 是内置的，不需要安装)

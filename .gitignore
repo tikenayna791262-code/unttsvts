@@ -1,0 +1,19 @@
+# 排除 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 排除打包产物
+dist/
+build/
+*.spec
+
+# 排除用户隐私和数据
+config/config.yaml
+logs/*.log
+data/*.db
+temp/*.png
+temp/*.mp3
+
+# 排除虚拟环境
+.venv/
+venv/

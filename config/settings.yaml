@@ -1,0 +1,16 @@
+ai_provider:
+  api_key: "YOUR_API_KEY_HERE"
+  base_url: https://api.groq.com/openai/v1
+  current_model: llama-3.3-70b-versatile
+  model: ''
+modules:
+  rest_reminder: true
+  tts_enabled: true
+  tts_voice: zh-CN-XiaoxiaoNeural
+  vision_enabled: true
+proxy: http://127.0.0.1:7897
+ui:
+  background_path: ui/resources/bg.jpg
+  opacity: 0.85
+  theme_color: '#00ffcc'
+user_name: 蜂群
